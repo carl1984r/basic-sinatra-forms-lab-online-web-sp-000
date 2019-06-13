@@ -13,8 +13,8 @@ class App < Sinatra::Base
     @name = params[:name]
     @name = params[:name]
     @name = params[:name]
-    @name = params[:name]  
-    
+    @name = params[:name]
+
     erb :team
   end
 
